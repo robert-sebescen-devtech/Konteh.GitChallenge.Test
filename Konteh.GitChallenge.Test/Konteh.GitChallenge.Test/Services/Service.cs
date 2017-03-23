@@ -18,5 +18,10 @@ namespace Konteh.GitChallenge.Test.Services
 			yield return new TestModel() { Id = Guid.NewGuid(), Name = "first" };
 			yield return new TestModel() { Id = Guid.NewGuid(), Name = "third" };
 		}
+
+		public IEnumerable<TestModel> GetNone()
+		{
+			yield break;
+		}
 	}
 }
