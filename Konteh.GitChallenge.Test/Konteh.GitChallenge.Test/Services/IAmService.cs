@@ -10,6 +10,6 @@ namespace Konteh.GitChallenge.Test.Services
 	{
 		IEnumerable<TestModel> GetAll();
 
-		IEnumerable<TestModel> GetSome();
+		IEnumerable<TestModel> GetOddOnes();
 	}
 }

@@ -13,7 +13,7 @@ namespace Konteh.GitChallenge.Test.Services
 			yield return new TestModel() { Id = Guid.NewGuid(), Name = "third"};
 		}
 
-		public IEnumerable<TestModel> GetSome()
+		public IEnumerable<TestModel> GetOddOnes()
 		{
 			yield return new TestModel() { Id = Guid.NewGuid(), Name = "first" };
 			yield return new TestModel() { Id = Guid.NewGuid(), Name = "third" };
