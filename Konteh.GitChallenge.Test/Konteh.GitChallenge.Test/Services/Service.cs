@@ -4,7 +4,7 @@ using Konteh.GitChallenge.Test.Models;
 
 namespace Konteh.GitChallenge.Test.Services
 {
-	public class Service : IService
+	public class Service : IAmService
 	{
 		public IEnumerable<TestModel> GetAll()
 		{
