@@ -8,8 +8,8 @@ namespace Konteh.GitChallenge.Test.Services
 {
 	public interface IService
 	{
-		IEnumerable<TestModel> GetAll();
+		IEnumerable<RealModel> GetAll();
 
-		IEnumerable<TestModel> GetSome();
+		IEnumerable<RealModel> GetSome();
 	}
 }

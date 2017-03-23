@@ -176,10 +176,10 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\TestModel.cs" />
+    <Compile Include="Models\RealModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IService.cs" />
-    <Compile Include="Services\Service.cs" />
+    <Compile Include="Services\RealService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
