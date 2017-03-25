@@ -6,10 +6,10 @@ using Konteh.GitChallenge.Test.Models;
 
 namespace Konteh.GitChallenge.Test.Services
 {
-	public interface IService
+	public interface IAmService
 	{
 		IEnumerable<RealModel> GetAll();
-
-		IEnumerable<RealModel> GetSome();
+        
+		IEnumerable<RealModel> GetOddOnes();
 	}
 }
